@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fahmi.contactservice.about">
+
+    <TextView
+        android:text="User Guide
+
+There are nine main parts in the home of this app.
+
+1.Contact Creator and list
+At the top,there is a contact creator and contact list.You can save name,phone number,email and address.And can warch the save list using the aplication.
+
+2.Education Sector
+There is a education sector for only the Khulna division.By clicking on this sector, you can get the list of schools,colleges and university.
+
+3.Hospital Service
+There are some numbers of hospitals of Khulna division.By clicking on this sector, you can get the list of hospital's number.
+
+4.Police Services
+There are some numbers of police stations of Khulna division.In this application I add the numbers of different duty officers.
+
+5.Fire Service
+There are some numbers of fire service of Khulna division.By clicking on this sector, you can get the list of fire service's number.
+
+6.Ticket Counter
+There are some numbers of fire service of Khulna division.I add the number of bus,train,airlines in the our application.
+
+7.Hotel And Restaurant
+There are some numbers of hotel and restaurant of Khulna division.By clicking on this sector, you can get the list of restaurant's number and can contact with
+restaurant.
+
+8.Map
+We add the map in our application.So that, you can see the location of our application information.Also can see your current location.
+
+9.Browser
+In search option we add google.com page link.By using browser you can also get more information.  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+</ScrollView>

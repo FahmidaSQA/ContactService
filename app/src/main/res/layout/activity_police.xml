@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_police"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/two"
+    tools:context="com.example.fahmi.contactservice.police">
+
+
+        <TableLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Number Of the Police Services"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/textView5" />
+
+            <Button
+                android:id="@+id/khulnaPolice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Khulna Police Station"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp" />
+
+
+            <Button
+                android:id="@+id/sonadagaPolice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Sonadaga Police Station"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp" />
+
+
+            <Button
+                android:id="@+id/rupshaPolice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Rupsha police station"
+                android:layout_marginTop="13dp"
+                android:layout_below="@+id/kmc"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/khalispurPolice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_marginTop="13dp"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="khalishpur Police Station "
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/khanjahanPloice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="KhanjahanAli police station"
+                android:layout_marginTop="13dp"
+                android:layout_below="@+id/ibhpsi"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/batiaghatPolice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Batiaghata police station"
+                android:layout_marginTop="13dp"
+                android:layout_below="@+id/gazihospi"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/Horintana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_marginTop="13dp"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Harintana police station"
+                android:layout_below="@+id/AkijHospi"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/daulutpurPolice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_marginTop="13dp"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Daulatpur police station"
+                android:layout_below="@+id/Rupshahealth"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/koyrapolice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_below="@+id/fultola"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Koyra police station"
+                android:layout_marginTop="13dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+            <Button
+                android:id="@+id/fultolaPolice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_below="@+id/fultola"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Fultola Police Station"
+                android:layout_marginTop="13dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </TableLayout>
+
+    </ScrollView>
+
+

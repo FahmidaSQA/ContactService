@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fire"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/firemain"
+    tools:context="com.example.fahmi.contactservice.Fire">
+
+        <TableLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Number Of the Hospital Service"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/textView4" />
+
+
+            <Button
+                android:id="@+id/khulnaFire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Khulna fire service "
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp" />
+
+
+            <Button
+                android:id="@+id/daulutpurFire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Daulatur fire servic"
+                android:layout_marginTop="13dp"
+                android:layout_below="@+id/kmc"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/dumuriaFire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_marginTop="13dp"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Dumuria fire service "
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/khalishpurFire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Khalishpur fire service"
+                android:layout_marginTop="13dp"
+                android:layout_below="@+id/dumuriaFire"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/khanjahanFire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="KhanjahanAli fire service "
+                android:layout_marginTop="13dp"
+                android:layout_below="@+id/khalishpurFire"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/riverFire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_marginTop="13dp"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Khulna river fire service"
+                android:layout_below="@+id/AkijHospi"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/tutparafire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_marginTop="13dp"
+                android:drawableRight="@android:drawable/sym_action_call"
+                android:text="Tutpara fire service"
+                android:layout_below="@+id/Rupshahealth"
+                android:layout_alignParentStart="true" />
+
+
+
+        </TableLayout>
+
+    </ScrollView>
+
